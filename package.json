@@ -10,7 +10,8 @@
   ],
   "repository": "https://github.com/Woonkly/wDEFI-sdk.git",
   "keywords": [
-    "pancakeswap",
+    "wdefiswap",
+    "wdefiswap-sdk",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
