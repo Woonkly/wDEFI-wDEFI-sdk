@@ -18,6 +18,8 @@ var ChainId;
 (function (ChainId) {
   ChainId[ChainId["MAINNET"] = 56] = "MAINNET";
   ChainId[ChainId["BSCTESTNET"] = 97] = "BSCTESTNET";
+  ChainId[ChainId["ETHMAINNET"] = 1] = "ETHMAINNET";
+  ChainId[ChainId["ROPSTENNET"] = 3] = "ROPSTENNET";
 })(ChainId || (ChainId = {}));
 
 var TradeType;
@@ -435,7 +437,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'), _WETH[ChainId.BSCTESTNET] = /*#__PURE__*/new Token(ChainId.BSCTESTNET, '0x7c4e1028F537c492A84d4456673928a7eE187e75', 18, 'WBNB', 'Wrapped BNB'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'), _WETH[ChainId.BSCTESTNET] = /*#__PURE__*/new Token(ChainId.BSCTESTNET, '0x7c4e1028F537c492A84d4456673928a7eE187e75', 18, 'WBNB', 'Wrapped BNB'), _WETH[ChainId.ETHMAINNET] = /*#__PURE__*/new Token(ChainId.ETHMAINNET, '0xc778417e063141139fce010982780140aa0cd5ab', 18, 'WETH', 'Wrapped ETH'),  _WETH[ChainId.ROPSTENNET] = /*#__PURE__*/new Token(ChainId.ROPSTENNET, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped ETH'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
