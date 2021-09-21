@@ -37,8 +37,8 @@ var Rounding;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(Rounding || (Rounding = {}));
 
-var FACTORY_ADDRESS = process.env.REACT_APP_CHAIN_ID === "56" ? '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73' : '0x5b947461661E8955B6e92E52Db33f89ed4084042';
-var INIT_CODE_HASH = process.env.REACT_APP_CHAIN_ID === "56" ? '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5' : '0x784b9b404e2b23622b92ec18b22d46a61d4f959b6b7db688f28426c3a195016a';
+var FACTORY_ADDRESS = process.env.REACT_APP_CHAIN_ID === "56" ? '0x312139C5fC57bC0eA915B09B76A12Ea4E4EcB1b5' : '0x5b947461661E8955B6e92E52Db33f89ed4084042';
+var INIT_CODE_HASH = process.env.REACT_APP_CHAIN_ID === "56" ? '0x77242256fa9fd57f30a050ed4b84434928593af1462466ccf205eca6773e32a1' : '0x784b9b404e2b23622b92ec18b22d46a61d4f959b6b7db688f28426c3a195016a';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
@@ -437,7 +437,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'), _WETH[ChainId.BSCTESTNET] = /*#__PURE__*/new Token(ChainId.BSCTESTNET, '0x7c4e1028F537c492A84d4456673928a7eE187e75', 18, 'WBNB', 'Wrapped BNB'), _WETH[ChainId.ETHMAINNET] = /*#__PURE__*/new Token(ChainId.ETHMAINNET, '0xc778417e063141139fce010982780140aa0cd5ab', 18, 'WETH', 'Wrapped ETH'),  _WETH[ChainId.ROPSTENNET] = /*#__PURE__*/new Token(ChainId.ROPSTENNET, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped ETH'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0xE7E91A8C7F8ea6849bAB1bE8129A2D4fA2731493', 18, 'WBNB', 'Wrapped BNB'), _WETH[ChainId.BSCTESTNET] = /*#__PURE__*/new Token(ChainId.BSCTESTNET, '0x7c4e1028F537c492A84d4456673928a7eE187e75', 18, 'WBNB', 'Wrapped BNB'), _WETH[ChainId.ETHMAINNET] = /*#__PURE__*/new Token(ChainId.ETHMAINNET, '0xc778417e063141139fce010982780140aa0cd5ab', 18, 'WETH', 'Wrapped ETH'),  _WETH[ChainId.ROPSTENNET] = /*#__PURE__*/new Token(ChainId.ROPSTENNET, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped ETH'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
