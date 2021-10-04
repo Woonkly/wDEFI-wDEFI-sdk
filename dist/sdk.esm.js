@@ -37,8 +37,8 @@ var Rounding;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(Rounding || (Rounding = {}));
 
-var FACTORY_ADDRESS = process.env.REACT_APP_CHAIN_ID === "56" ? '0xcC60aa818249a4C902d486c30D54b54658d3E8d9' : '0x5b947461661E8955B6e92E52Db33f89ed4084042';
-var INIT_CODE_HASH = process.env.REACT_APP_CHAIN_ID === "56" ? '0x0d60f5ae79f5eaafbd1d51c4e4236b45dc8c401b341a58be1e4f1c547efaa8a1' : '0x784b9b404e2b23622b92ec18b22d46a61d4f959b6b7db688f28426c3a195016a';
+var FACTORY_ADDRESS = process.env.REACT_APP_CHAIN_ID === "56" ? '0xC4b171aA0905C16cC32DfF1c9a69e2F19912B8F6' : '0x5b947461661E8955B6e92E52Db33f89ed4084042';
+var INIT_CODE_HASH = process.env.REACT_APP_CHAIN_ID === "56" ? '0xc60295bfbdd4fc97e9b661e3dc87ad93009c329122a9f7de998905aef247a2dd' : '0x784b9b404e2b23622b92ec18b22d46a61d4f959b6b7db688f28426c3a195016a';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
